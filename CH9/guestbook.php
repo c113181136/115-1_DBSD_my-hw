@@ -5,6 +5,7 @@
 <title>guestbook.php</title>
 
 <?php
+require("about_me.php");
 $msg = "";
 // 檢查是否是表單送回
 if (isset($_POST["Name"]) ) {
